@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <router-link class="navbar-brand" to="/">Taller vue-js</router-link>
+    <span class="navbar-brand">Taller vue-js</span>
     <button
       class="navbar-toggler"
       type="button"
@@ -15,18 +15,9 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <router-link class="nav-link" active-class="active" to="/Inicio">Inicio</router-link>
-        </li>
-        <li class="nav-item">
-          <router-link class="nav-link" active-class="active" to="/Cursos">Cursos</router-link>
-        </li>
-        <li class="nav-item">
-          <router-link class="nav-link" active-class="active" to="/Comunidades">Comunidades</router-link>
-        </li>
-        <li class="nav-item">
-          <router-link class="nav-link" active-class="active" to="/Mi-cuenta">Mi Cuenta</router-link>
-        </li>
+        <!-- 
+          aqui van las rutas
+         -->
       </ul>
     </div>
   </nav>

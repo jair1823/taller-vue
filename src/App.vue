@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <Navbar />
+    <!-- Se debe agregar un navbar -->
     <router-view />
   </div>
 </template>
 
 <script>
-import Navbar from "@/components/Navbar.vue";
+//Importar componente
 
 export default {
   name: "cursos",
   components: {
-    Navbar
+    //agregar componente
   }
 };
 </script>

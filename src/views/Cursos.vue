@@ -1,16 +1,16 @@
 <template>
   <div id="cursos">
-    <Semestres />
+    <!-- Se debe poner componente semestre -->
   </div>
 </template>
 
 <script>
-import Semestres from "@/components/Semestres.vue";
+//Importar componente
 
 export default {
   name: "cursos",
   components: {
-    Semestres
+    //Se debe agregar el componente importado
   }
 };
 </script>
