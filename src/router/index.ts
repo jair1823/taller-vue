@@ -1,22 +1,37 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
+
+import Inicio from '../views/Inicio.vue'
+import Cursos from '../views/Cursos.vue'
+import Comunidades from '../views/Comunidades.vue'
+import MiCuenta from '../views/MiCuenta.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    name: 'home',
-    component: Home
+    redirect: '/Inicio'
   },
   {
-    path: '/about',
-    name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+    path: '/Inicio',
+    name: 'inicio',
+    component: Inicio
+  },
+  {
+    path: '/Cursos',
+    name: 'cursos',
+    component: Cursos
+  },
+  {
+    path: '/Comunidades',
+    name: 'comunidades',
+    component: Comunidades
+  },
+  {
+    path: '/Mi-cuenta',
+    name: 'mi-cuenta',
+    component: MiCuenta
   }
 ]
 
